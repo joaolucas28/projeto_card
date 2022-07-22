@@ -1,0 +1,130 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color:#0d1a2d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fundo {
+    width: 350px;
+    height: 595px;
+    background-color: #15273f;
+    border-radius: 15px;
+    flex-direction: column;
+    padding: 10px;
+    
+} 
+.img{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+img {
+    width: 320px;
+    height: 300px;
+    border-radius: 15px;
+}
+.title {
+    color: #fcffff;
+    padding: 20px;
+    font-size: 25px;
+}
+.resume {
+    color: #8499b8;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.emojis {
+    display: flex;
+    justify-content: space-between;
+}
+.ethe img {
+    width: 10px;
+    height: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.ethe {
+    display: flex;
+}
+.ethe_t {
+    padding-left: 5px;
+    padding-top: 23px;
+    color: #0fffff;
+}
+.relogio img {
+    width: 15px;
+    height: 15px;
+    padding-top: 23px;
+}
+.relogio {
+    display: flex;
+    padding-right: 20px;
+}
+.hora {
+    padding-top: 23px;
+    padding-left: 7px;
+    color: #8ca8cf;
+}
+hr {
+    margin-top: 20px;
+    background-color: #2f4159;
+    width: 310px;
+    height: 2px;
+    border: none;
+}
+.avatar {
+    display: flex;
+}
+.footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid #fff;
+}
+.criador {
+    margin-left:8px;
+    margin-top: 40px;
+    color: #617596;
+}
+.nome {
+    margin-left: 5px;
+    margin-top: 40px;
+    color: #c2cede;
+}
+@media (max-width:500px) {
+    .fundo {
+        width: 330px;
+        height: 540px;
+    }
+    .img img {
+        width: 285px;
+        height: 280px;
+    }
+    .relogio {
+        padding-right:30PX ;
+    }
+    .avatar img {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #fff;
+        margin-top: 10px;
+    }
+    .avatar .criador {
+        margin-top: 25px;
+    }
+    .avatar .nome {
+        margin-top: 25px;
+    }
+}
